@@ -1,0 +1,143 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Space Grotesk', sans-serif;
+	text-decoration: none;
+}
+
+hr.stylish {
+	width: 50%;
+	margin: 20px auto;
+	border: 0;
+	border-top: 1px dashed #800080;
+}
+
+.company {
+	color: #000000;
+	text-align: center;
+	align-items: center;
+	margin: 25px 5px;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.company h1 {
+	display: inline-block;
+	padding: 5px 30px;
+	border: 1px solid #800080;
+	background-color: #d502d5;
+	color: white;
+	border-radius: 10px;
+	font-size: 4rem;
+	margin: 25px;
+}
+
+.company p {
+	max-width: 60%;
+	margin: 0 auto;
+	padding: 20px;
+	font-size: 1.2rem;
+}
+
+.headteam {
+	color: #000000;
+	text-align: center;
+	align-items: center;
+	margin: 25px 5px;
+	max-width: 80%;
+	margin: 0 auto;
+	font-size: 1.5rem;
+}
+
+.team {
+	position: relative;
+	width: 100%;
+	height: 70vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.team-content {
+	width: 100%;
+	max-width: 80%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+	align-items: center;
+	gap: 2rem;
+	text-align: center;
+	margin-top: 4rem;
+}
+
+.team-content img {
+	width: 100%;
+	height: auto;
+	border-radius: 15px;
+	margin-bottom: 15px;
+}
+
+.center h1 {
+	display: inline-block;
+	padding: 5px 30px;
+	border: 1px solid #800080;
+	background-color: #d502d5;
+	color: white;
+	border-radius: 10px;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.box {
+	padding: 16px;
+	height: 100%;
+	background: #4a004a;
+	border-radius: 15px;
+	transition: all .38s ease;
+}
+
+.box h3 {
+	font-size: 23px;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 8px;
+}
+
+.box h5 {
+	font-size: 15px;
+	font-weight: 600;
+	color: #b7b4bb;
+	margin-bottom: 15px;
+	letter-spacing: 2px;
+}
+
+.icons i {
+	display: inline-block;
+	color: #fff;
+	font-size: 20px;
+	margin: 0 8px;
+	transition: all .38s ease;
+}
+
+.icons i:hover {
+	transform: scale(1.2);
+}
+
+.box:hover {
+	transform: translateY(-10px);
+	cursor: pointer;
+}
+
+@media(max-width: 1240px) {
+	.team {
+		width: 100%;
+		height: auto;
+		padding: 90px 2%;
+	}
+
+	.center h1 {
+		font-size: 3.2rem;
+	}
+}
